@@ -4,16 +4,16 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #FFD4DE;
+  --primary: #FCD9D9;
   --secondary: #FFD1DB;
-  --tertiary: #F9BBCB;
-  --light: #FFE0E6;
-  --dark: #EF8BA4;
+  --tertiary: #F9E5E5;
+  --light: #E7B5C2;
+  --dark: #F3DAE1;
   --darker: #D57D95;
   --error: rgb(219, 144, 164);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
+  --spacing-five: calc(1.5rem);
 }
 
 * {
@@ -29,8 +29,8 @@ body {
   margin: 0;
   padding: 0;
   font-weight: 600;
-  line-height: 1.5;
-  font-size: 18px;
+  line-height: 3.5;
+  font-size: 29px;
   letter-spacing: 0.1em;
   background: var(--dark);
   color: var(--light);
@@ -45,28 +45,28 @@ h5,
 h6 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
-  margin: 5px 0;
-  line-height: 1.25;
+  margin: 10px 5;
+  line-height: 1.05;
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 3.25rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 2.75rem;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 2.25rem;
 }
 
 h6 {
@@ -74,8 +74,8 @@ h6 {
 }
 
 p {
-  font-size: 1.1rem;
-  margin-top: 0;
+  font-size: 1.5rem;
+  margin-top: 1;
 }
 
 a {
@@ -97,12 +97,12 @@ header a {
 }
 
 button {
-  font-size: 1rem;
+  font-size: 2rem;
   text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  outline: none;
+  padding: 1.25rem 2rem;
+  border-radius: 1.5rem;
+  border: #F9E5E5;
+  outline:darkgrey;
   cursor: pointer;
   margin: 0 1px;
   background-color: var(--secondary);
@@ -118,7 +118,7 @@ button[disabled] {
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 span[role='img'] {
