@@ -1,15 +1,14 @@
-import './App.css';
+import React, { useState } from 'react';
+import Nav from './components/Nav';
+import Home from './components/Home';
+import Footer from './components/Footer';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
-import Home from './components/Home';
-import Nav from './components/Nav';
-import Footer from './components/Footer';
-import React, { useState } from 'react';
+import Resume from './components/Resume';
+
 
 function App() {
-
-
   const [currentPage, setCurrentPage] = useState('Home');
 
   const renderPage = () => {
@@ -25,16 +24,18 @@ function App() {
     if (currentPage === 'Contact') {
       return <ContactForm />;
     }
-   
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
-      <Footer />
+      <Footer/>
     </div>
   );
 }

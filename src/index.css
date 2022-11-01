@@ -5,19 +5,21 @@ main {
 }
 :root {
   --primary: #FCD9D9;
-  --secondary: #FFD1DB;
+  --secondary: #eddcd2;
   --tertiary: #F9E5E5;
   --light: #E7B5C2;
   --dark: #F3DAE1;
   --darker: #D57D95;
   --error: rgb(219, 144, 164);
-  --spacing-one: calc(1rem * 0.5);
+  --spacing-one: calc(2rem * 0.5);
   --spacing-two: calc(1rem);
-  --spacing-five: calc(1.5rem);
+  --spacing-five: calc(2.5rem);
 }
 
 * {
   box-sizing: border-box;
+  padding: 0;
+	margin: auto;
 }
 
 html,
@@ -30,7 +32,7 @@ body {
   padding: 0;
   font-weight: 600;
   line-height: 3.5;
-  font-size: 29px;
+  font-size: 25px;
   letter-spacing: 0.1em;
   background: var(--dark);
   color: var(--light);
@@ -43,30 +45,31 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:  'Montserrat', sans-serif;
   font-weight: 500;
-  margin: 10px 5;
-  line-height: 1.05;
+  margin: 5px 0;
+  line-height: 1.25;
+  justify-content: center;
 }
 
 h1 {
-  font-size: 3.25rem;
+  font-size: 2.25rem;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 2.75rem;
+  font-size: 1.75rem;
 }
 
 h4 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 h5 {
-  font-size: 2.25rem;
+  font-size: 1.25rem;
 }
 
 h6 {
@@ -74,14 +77,19 @@ h6 {
 }
 
 p {
-  font-size: 1.5rem;
-  margin-top: 1;
+  color: gray;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: normal;
+  font-size: 1.1rem;
+  margin-top:auto;
+  justify-content: center;
 }
 
 a {
   color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
+  justify-content: center;
 }
 
 a:hover {
@@ -90,19 +98,21 @@ a:hover {
 
 header {
   background: var(--dark);
+  justify-content: center;
 }
 
 header a {
   color: var(--light);
+  justify-content: center;
 }
 
 button {
-  font-size: 2rem;
+  font-size: 1rem;
   text-decoration: none;
-  padding: 1.25rem 2rem;
-  border-radius: 1.5rem;
-  border: #F9E5E5;
-  outline:darkgrey;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
   cursor: pointer;
   margin: 0 1px;
   background-color: var(--secondary);
@@ -118,7 +128,11 @@ button[disabled] {
 }
 
 img {
-  max-width: 80%;
+  height: 80%;
+	width: 80%;
+  margin-left: 10%;
+  border-radius: 15px;
+	object-fit:contain;
 }
 
 span[role='img'] {
@@ -131,16 +145,17 @@ form {
 
 input {
   font-size: 1rem;
-  padding: 0.25rem;
+  padding: 2.25rem;
   border: 1px solid var(--dark);
-  outline: none;
+  outline:invert;
   border-radius: 3px;
   transition: box-shadow 0.2s;
+  justify-content: center;
 }
 
 input:focus {
   border: 1px solid var(--secondary);
-  box-shadow: 0 0 0.25rem rgba(231, 181, 194, 0.9);
+  box-shadow: 7 7 0.25rem rgba(231, 181, 194, 0.9);
 }
 
 li {
@@ -158,8 +173,9 @@ nav li {
 textarea {
   width: 600px;
   height: 120px;
-  border: 3px solid #cccccc;
+  border: 3px solid #b37f95;
   padding: 5px;
+  justify-content: center;
 }
 
 .container {
@@ -234,7 +250,7 @@ textarea {
 
 .img-thumbnail {
   width: auto;
-  height: 300px;
+  height: 150px;
   margin-bottom: 50px;
   cursor: pointer;
 }
