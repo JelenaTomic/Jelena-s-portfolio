@@ -7,11 +7,7 @@ function Resume() {
     <div className="row p-5 d-flex justify-content-center" >
     <div className='col-sm-6 p-5'>
     <h1>RESUME</h1>
-      <a className='m-5'
-       href=""
-       >
-           <FaDownload size={70}/> Download Resume
-          </a>
+      <a className='m-5' href={require("../assets/Resume.pdf")} download="JelenaTomic-Resume.pdf"><FaDownload size={70}/> Download Resume</a>
           </div>
           <div className='col-sm-6 p-5'>
             <h1>Skills</h1>
