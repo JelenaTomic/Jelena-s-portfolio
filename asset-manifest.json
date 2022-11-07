@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/JelenaTomic/Jelena-s-portfolio/static/css/main.cdf6b5c0.css",
+    "main.js": "/JelenaTomic/Jelena-s-portfolio/static/js/main.3b53e5d8.js",
+    "static/js/787.d1db3707.chunk.js": "/JelenaTomic/Jelena-s-portfolio/static/js/787.d1db3707.chunk.js",
+    "static/media/shakenorstirred.png": "/JelenaTomic/Jelena-s-portfolio/static/media/shakenorstirred.218cc2bceca60d156cb7.png",
+    "static/media/eCommerce.png": "/JelenaTomic/Jelena-s-portfolio/static/media/eCommerce.e1a204c6c48ec8e94327.png",
+    "static/media/crunchTrack.png": "/JelenaTomic/Jelena-s-portfolio/static/media/crunchTrack.b55d3a4e9ff7d17a728e.png",
+    "static/media/socialNetworkAPI.png": "/JelenaTomic/Jelena-s-portfolio/static/media/socialNetworkAPI.5d7670b946098b158379.png",
+    "static/media/profilphoto.jpeg": "/JelenaTomic/Jelena-s-portfolio/static/media/profilphoto.385f9b2e5507195450d8.jpeg",
+    "static/media/weatherDashboard.png": "/JelenaTomic/Jelena-s-portfolio/static/media/weatherDashboard.23cefaad503c63c4967a.png",
+    "static/media/Resume.pdf": "/JelenaTomic/Jelena-s-portfolio/static/media/Resume.e9bb59a11aa0e8301022.pdf",
+    "index.html": "/JelenaTomic/Jelena-s-portfolio/index.html",
+    "main.cdf6b5c0.css.map": "/JelenaTomic/Jelena-s-portfolio/static/css/main.cdf6b5c0.css.map",
+    "main.3b53e5d8.js.map": "/JelenaTomic/Jelena-s-portfolio/static/js/main.3b53e5d8.js.map",
+    "787.d1db3707.chunk.js.map": "/JelenaTomic/Jelena-s-portfolio/static/js/787.d1db3707.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdf6b5c0.css",
+    "static/js/main.3b53e5d8.js"
+  ]
+}
