@@ -21,11 +21,11 @@ function Portfolio() {
         },
         {
             id: 'id3',
-            title: 'Project3',
-            github: 'href="https://github.com/JelenaTomic',
-            live: '',
-            text: 'Project 3 is coming soon',
-            image: require('../images/project3.jpeg')
+            title: 'Trip Clip',
+            github: 'https://github.com/orgs/Trip-Clip-Team/repositories',
+            live: 'https://trip-clip.herokuapp.com/',
+            text: 'Trip clip is fun and interactive app that helps people keep they travel journey along with helping other decide what destinations to visit based on the reviews and comments',
+            image: require('../images/HomePage.png')
         },
         {
             id: 'id4',
