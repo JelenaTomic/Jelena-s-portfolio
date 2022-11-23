@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Jelena-s-portfolio/static/css/main.cdf6b5c0.css",
-    "main.js": "/Jelena-s-portfolio/static/js/main.d4af1651.js",
+    "main.js": "/Jelena-s-portfolio/static/js/main.fdf7215d.js",
     "static/js/787.d1db3707.chunk.js": "/Jelena-s-portfolio/static/js/787.d1db3707.chunk.js",
     "static/media/shakenorstirred.png": "/Jelena-s-portfolio/static/media/shakenorstirred.218cc2bceca60d156cb7.png",
+    "static/media/HomePage.png": "/Jelena-s-portfolio/static/media/HomePage.c8ddb5dc55535395fa06.png",
     "static/media/eCommerce.png": "/Jelena-s-portfolio/static/media/eCommerce.e1a204c6c48ec8e94327.png",
     "static/media/crunchTrack.png": "/Jelena-s-portfolio/static/media/crunchTrack.b55d3a4e9ff7d17a728e.png",
     "static/media/socialNetworkAPI.png": "/Jelena-s-portfolio/static/media/socialNetworkAPI.5d7670b946098b158379.png",
@@ -12,11 +13,11 @@
     "static/media/Resume.pdf": "/Jelena-s-portfolio/static/media/Resume.e9bb59a11aa0e8301022.pdf",
     "index.html": "/Jelena-s-portfolio/index.html",
     "main.cdf6b5c0.css.map": "/Jelena-s-portfolio/static/css/main.cdf6b5c0.css.map",
-    "main.d4af1651.js.map": "/Jelena-s-portfolio/static/js/main.d4af1651.js.map",
+    "main.fdf7215d.js.map": "/Jelena-s-portfolio/static/js/main.fdf7215d.js.map",
     "787.d1db3707.chunk.js.map": "/Jelena-s-portfolio/static/js/787.d1db3707.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cdf6b5c0.css",
-    "static/js/main.d4af1651.js"
+    "static/js/main.fdf7215d.js"
   ]
 }
